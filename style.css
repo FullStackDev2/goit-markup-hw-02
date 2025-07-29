@@ -1,4 +1,215 @@
-.renk {
-    color: blueviolet;
-    font-size: 50%;
+body {
+    font-family: "Roboto",sans-serif;
+    color: burlywood;
+}
+.logo {
+    background-color: #E7E9FC;
+    font-size: 18px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    color: #2E2F42;
+    text-transform: uppercase;
+    display: block;
+}
+.logo span {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.tikla {
+    color: #FFFFFF;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    margin:2px;
+    background-color: #4D5AE5;
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+.tikla:hover,
+.tikla:focus {
+    color:tomato;
+    cursor: pointer;
+}
+.tikla:active {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+    background-color: darkolivegreen;
+}
+.section-title .header3{
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight:500;
+    font-style: normal;
+}
+.section-title p{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal; 
+}
+.section-title .efekt {
+    background-color: #2E2F42;
+    padding: 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 250%;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 56px;
+    text-align: justify;
+}
+.bilgiler .link {
+    background-color: #E7E9FC;
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+}
+.link a:hover,
+.link a:focus {
+    color: hotpink;
+    cursor: pointer;
+}
+
+.link a:active {
+    color: lime;
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+    background-color: red;
+}
+.address a:hover,
+.address a:focus {
+    color: hotpink;
+    cursor: pointer;
+}
+
+.address a:active {
+    color: lime;
+    text-decoration: underline;
+    text-decoration-color:red;
+    cursor: pointer;
+    background-color: red;
+}
+.adres .address {
+    background-color: #E7E9FC;
+    color: #434455;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+}
+.logo2 {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #F4F4FD;
+    text-transform: uppercase;
+}
+.logo2 span {
+    font-size: 18px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+.end {
+    background-color: #2E2F42;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-style: normal;
+    color: #F4F4FD;
+    padding: 35px;
+}
+.resimler1 {
+    background-color: #F4F4FD;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.resimler1 .baslik2 {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+.font {
+    color: #2E2F42;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: justify;
+
+}
+.resimler1 p {
+    color: #434455;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: justify;
+}
+.eleman h4 {
+    color: #2E2F42;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: justify;
+}
+.eleman .baslik2 {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    font-size: 36px;
+    text-align: justify;
+}
+.eleman p {
+    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.eleman {
+    background-color: #E7E9FC;
+}
+.arka-plan {
+    background-color: white ;
+}
+ul li {
+    list-style-type: none;
 }
